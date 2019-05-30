@@ -2,15 +2,12 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>App</title>
+    <title>Loading...</title>
   </head>
   <body>
     <h5>Loading...</h5>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    <!--We are using Node.js <script>document.write(process.versions.node)</script>,-->
-    <!--Chromium <script>document.write(process.versions.chrome)</script>,-->
-    <!--and Electron <script>document.write(process.versions.electron)</script>.-->
-
-    <meta http-equiv="refresh" content="0; url=http://localhost:3333" />
+    <script>
+      require('./renderer.js');
+    </script>
   </body>
 </html>
