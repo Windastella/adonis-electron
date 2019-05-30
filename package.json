@@ -1,8 +1,8 @@
 {
-  "name": "adonis-fullstack-app",
+  "name": "adonis-electron",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
-  "description": "The fullstack application boilerplate for Adonisjs",
+  "description": "The fullstack application boilerplate for Adonisjs with Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
